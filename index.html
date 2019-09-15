@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>jsQR sample</title>
+</head>
+<body>
+  <h1>jsQR Demo</h1>
+  <a id="githubLink" href="https://github.com/cozmo/jsQR">View documentation on Github</a>
+  <p>Pure JavaScript QR code decoding library.</p>
+  <div id="loadingMessage">🎥 Unable to access video stream (please make sure you have a webcam enabled)</div>
+  <canvas id="canvas" hidden></canvas>
+  <div id="output" hidden>
+    <div id="outputMessage">No QR code detected.</div>
+    <div hidden><b>Data:</b> <span id="outputData"></span></div>
+  </div>
+  
+  <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/jsqrsmpl.css?r=1" />
+  <script src="./js/sweetalert2.js?r=1"></script>
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/jsQR.js?r=1"></script>
+  <script src="./js/jsqrsmpl.js?r=1"></script>
+</body>
+</head>
